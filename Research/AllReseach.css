@@ -1,0 +1,23 @@
+/* Reduce padding in table cells */
+.table td, .table th {
+    padding: 0.4rem; /* Decreased padding */
+    vertical-align: middle; /* Align data in the center vertically */
+  }
+  
+  /* Reduce margin and font size for smaller text */
+  h3 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  .table-responsive {
+    margin-top: 1rem;
+  }
+  
+  .table {
+    font-size: 0.9rem; /* Slightly smaller font */
+  }
+  
+  a {
+    word-break: break-word; /* Handle long links */
+  }

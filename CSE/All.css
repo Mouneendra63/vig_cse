@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body {
+    background-color: #fff;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  p
+  {
+    font-family: "Familjen Grotesk";
+  }
+  h1
+  {
+    font-family: 'DM Serif Display';
+  }
+  span
+  {
+    font-family: 'Familjen Grotesk'
+  }
+  .modal-backdrop {
+    z-index: -1;
+  }

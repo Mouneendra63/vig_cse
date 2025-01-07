@@ -1,0 +1,263 @@
+p
+{
+    font-family: "Familjen Grotesk";
+}
+.review-container {
+    display: flex;
+    flex:0.6;
+  }
+
+  .feedback {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+  }
+
+  .feedback .feedback-con {
+    border: 1px solid #1152ae;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    line-height: 1.5;
+    width: 1rem;
+    cursor: pointer;
+    position: relative;
+    transition: width 0.7s ease;
+  }
+
+  .feedback .feedback-con::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.256);
+  }
+  /* Style for the video background */
+  .feedback .feedback-con {
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.5;
+    width: 5.5rem;
+    cursor: pointer;
+    position: relative;
+    transition: width 0.7s ease;
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center; /* Center the image */
+  }
+  .feedback .feedback-con:last-child {
+    background-image: url("https://vignanbuckets.s3.us-east-1.amazonaws.com/public/1.jpeg");
+  }
+  .feedback .feedback-con:first-child {
+    background-image: url("https://vignanbuckets.s3.us-east-1.amazonaws.com/public/19.jpeg");
+  }
+  .feedback .feedback-con:nth-child(4) {
+    background-image: url("https://vignanbuckets.s3.us-east-1.amazonaws.com/public/03.JPG");
+  }
+  .feedback .feedback-con:nth-child(2) {
+    background-image: url("https://vignanbuckets.s3.us-east-1.amazonaws.com/public/15.jpeg");
+  }
+  .feedback .feedback-con:nth-child(3) {
+    background-image: url("https://vignanbuckets.s3.us-east-1.amazonaws.com/public/depthomeimg_cse.webp");
+  }
+  /* Video styling for active state */
+  .feedback-con.active .background-video {
+    display: block; /* Show video when active */
+  }
+
+  .feedback-con:not(.active) .background-video {
+    display: none; /* Hide video when not active */
+  }
+
+  /* Keep the existing styles for the feedbacks and other elements */
+  .feedback-con .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: 10px;
+    pointer-events: none;
+  }
+
+  /* Ensure content remains on top */
+  .feedback-con {
+    position: relative;
+    overflow: hidden; /* Hide any part of the video that overflows */
+  }
+
+  /* Default height configurations for feedback containers */
+  .feedback .feedback-con:first-child,
+  .feedback .feedback-con:last-child {
+    height: 20rem;
+  }
+
+  .feedback .feedback-con:nth-child(2),
+  .feedback .feedback-con:nth-child(4) {
+    height: 25rem;
+  }
+
+  .feedback .feedback-con:nth-child(3) {
+    height: 30rem;
+  }
+
+  /* Feedbacks hidden initially */
+  .feedback .feedbacks {
+    opacity: 0;
+    visibility: hidden;
+    color: white;
+  }
+
+  /* Feedbacks visible with animation */
+  .feedback-con.active .feedbacks {
+    animation: showFeedbacks 0.7s ease-in-out forwards;
+    animation-delay: 0.7s; /* Delayed to start after the width transition */
+  }
+
+  /* Smooth expansion of feedback-con */
+  .feedback-con.active {
+    width: 18rem !important;
+  }
+
+  /* Animation keyframes for smoother feedback appearance */
+  @keyframes showFeedbacks {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  /* h1 Rotation and positioning */
+  .feedback-con h1 {
+    transform: rotate(270deg) translateY(-60%);
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: white;
+  }
+
+  /* Hide h1 when feedback-con is active */
+  .feedback-con.active h1 {
+    opacity: 0;
+    top: 45%;
+    left: 35%;
+  }
+
+
+
+  button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+   }
+   
+   button.learn-more {
+    width: 12.5rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #1152ae;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    -webkit-transform: translate(1rem, 0);
+        -ms-transform: translate(1rem, 0);
+            transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+    font-weight: 500;
+   }
+   
+   hr
+   {
+     width: 80rem;
+     margin-left: 100px;
+     margin-top: 70px;
+   }
+
+
+h1,h4,h5{
+    font-family: 'DM Serif Display';
+    
+}

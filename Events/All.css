@@ -1,0 +1,37 @@
+body {
+    background-color: #fff
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  p,a
+  {
+    font-family: "Familjen Grotesk";
+    text-decoration: none;
+  }
+  h1,h2,h3,h4
+  {
+    font-family: 'DM Serif Display';
+  }
+  span
+  {
+    font-family: 'Familjen Grotesk'
+  }
+  a
+  {
+    text-decoration: none
+  }
+
+
+.upcoming-card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+  /* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); */

@@ -1,0 +1,38 @@
+.chart-container {
+    width: 80%;
+    margin: 0 auto; /* Centers the chart */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow around the chart */
+  }
+  
+  .recharts-surface {
+    border-radius: 10px;
+  }
+  
+  .recharts-cartesian-axis-line {
+    stroke: #d1d5db; /* Light gray for axis lines */
+  }
+  
+  .recharts-cartesian-axis-tick line {
+    stroke: #e5e7eb; /* Light gray for tick lines */
+  }
+  
+  .recharts-tooltip-wrapper {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .recharts-tooltip-item {
+    color: #4b5563; /* Dark color for text */
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .recharts-tooltip-label {
+    font-weight: bold;
+    color: #111827;
+  }
