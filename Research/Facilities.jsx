@@ -40,7 +40,7 @@ function Facility() {
 
   return (
     <div className="outer-container re-facility mb-4 ps-4 mt-5 pt-5" style={{ backgroundColor: "#e7f1ff", zIndex: "1000", maxWidth: '1500px' }}>
-      <div className="RandI mb-4 ms-5">
+      <div className="RandI mb-4" style={{marginLeft:'5rem'}}>
             <h1 style={{ fontFamily: "DM Serif Display" }}>
             Research <span style={{ fontFamily: "DM Serif Display" }}> Facilities</span>
             </h1>

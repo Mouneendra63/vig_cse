@@ -61,9 +61,23 @@ function Slider() {
               </span>
               <Cursor cursorStyle=" " />
             </h1>
-            <p className="text-start  justify-content-center" style={{fontSize:'18px',lineHeight:'1.9'}}>
-            Welcome to the Vignan University Elective Registration Portal. Here, students have the opportunity to explore a wide range of electives designed to enrich their academic journey and foster interdisciplinary knowledge. This platform simplifies the elective selection process, allowing students to browse available courses, understand prerequisites, and choose electives that align with their career goals and personal interests. At Vignan, we believe in empowering students to shape their own learning paths. Whether you’re interested in technical courses, creative subjects, or industry-oriented minors, our electives offer a diverse selection tailored to meet the demands of today's rapidly evolving world. Register today to take the next step in customizing your academic experience and unlock your full potential at Vignan University!
-            </p>
+            <p className="text-left justify-content-center" 
+   style={{fontSize:'18px',lineHeight:'1.9',textAlign:'justify'}}>
+   Welcome to the Vignan University Elective Registration Portal. 
+   Here, students have the opportunity to explore a wide range 
+    of electives designed to enrich their academic journey and 
+   foster interdisciplinary knowledge. This platform simplifies 
+   the elective selection process, allowing students to browse 
+   available courses, understand prerequisites, and choose 
+   electives that align with their career goals and personal 
+   interests. At Vignan, we believe in empowering students to 
+   shape their own learning paths. Whether you’re interested in 
+   technical courses, creative subjects, or industry-oriented 
+   minors, our electives offer a diverse selection tailored to 
+   meet the demands of today's rapidly evolving world. Register 
+   today to take the next step in customizing your academic 
+   experience and unlock your full potential at Vignan University!
+</p>
             <div className="row">
         <div className="col" style={{marginRight:'rem'}}>
         <span className="learnn ">
