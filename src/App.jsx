@@ -4,6 +4,7 @@ import Reasearch from '../Research/Wrapper'
 import Facility from '../CSE/Wrapper';
 import Events from '../Events/Wrapper'
 import Allresearch from '../Research/All_research';
+import Gallery from '../Events/Gallery'
 function App() {
   return (  
     <Router>
@@ -12,6 +13,7 @@ function App() {
         <Route path="/facilities" element={<Facility />} />
         <Route path="/events" element={<Events />} />
         <Route path="/showAll" element={<Allresearch/>} />
+        <Route path="/showevents" element={<Gallery/>} />
       </Routes>
     </Router>
     

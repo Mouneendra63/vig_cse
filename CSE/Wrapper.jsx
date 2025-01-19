@@ -338,7 +338,7 @@ function Wrapper() {
       {/* Left-aligned card 2 */}
       <Left
         id="libraries"
-        maintitle="Department Library"
+        maintitle="Digital Library"
         mainmatter="The Vignan CSE Department Library offers a vast collection of academic resources, fostering knowledge, research, and intellectual growth for students and faculty."
         imgurl="https://vignanbuckets.s3.us-east-1.amazonaws.com/public/Library.jpeg"
         title1="Comprehensive Library Access"

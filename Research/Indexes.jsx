@@ -67,8 +67,8 @@ function Indexes() {
         width: "80%"}}>
               <div className="card-body">
                 <h5 className="card-title fs-2 text-white">Journals</h5>
-                <p className="card-text fs-5 text-white">SCI/ E - 80+</p>
-                <p className="card-text text-white">Scopus - 275+</p>
+                <p className="card-text fs-5 text-white">SCI/ E - 60+</p>
+                <p className="card-text text-white">Scopus - 150+</p>
                 <button
                   type="button"
                   className="btn bg-warning"
@@ -91,8 +91,8 @@ function Indexes() {
         paddingRight: "1rem",
         width: "80%"}}>              <div className="card-body">
                 <h5 className="card-title fs-2 text-white">Conferences</h5>
-                <p className="card-text text-white">IEEE/ Springer - 220+</p>
-                <p className="card-text text-white">Book Chapters - 40+</p>
+                <p className="card-text text-white">IEEE/ Springer - 400+</p>
+                <p className="card-text text-white">Book Chapters - 60+</p>
                 <button
                   type="button"
                   className="btn bg-warning"

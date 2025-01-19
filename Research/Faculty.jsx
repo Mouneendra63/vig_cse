@@ -5,7 +5,7 @@ function Faculty() {
     {
       id: "card1",
       name: "Dr.M. Sunil Babu",
-      designation: "ASSOCIATE PROFESSOR - Department of CSE",
+      designation: "ASSISSTANT PROFESSOR - Department of CSE",
       image: "https://vignan.ac.in/vignantest/departments/dep_assets/images/Dr.M.%20Sunil%20Babu.jpg",
       researchInterests:
         "Signal and Image Processing using Machine Learning, Distributed Systems, IoT.",
@@ -25,7 +25,7 @@ function Faculty() {
     {
       id: "card3",
       name: "Dr Jhansi Lakshmi Potharlanka",
-      designation: "ASSOCIATE PROFESSOR - Department of CSE",
+      designation: "ASSISSTANT PROFESSOR - Department of CSE",
       image: "https://vignan.ac.in/Facultyprofiles/uploads/01702/profilepic01702.JPG",
       researchInterests:
         "Machine Learning ,Deep Learning ,Image Processing",
