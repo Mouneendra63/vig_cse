@@ -4,18 +4,18 @@ import './Events.css'; // Ensure your styles are imported
 function UpcomingEvents  (){
   const events = [
     {
-      title: 'Sports Week 2024',
-      date: 'March 20-27, 2024',
+      title: 'Stack Hack 2025',
+      date: 'March 20-27, 2025',
       description: 'Annual inter-college sports competition featuring multiple sports disciplines',
     },
     {
-      title: 'Research Symposium',
-      date: 'April 5, 2024',
+      title: 'Pwc Cyber Security Challenge',
+      date: 'February 5, 2025',
       description: 'Showcase of groundbreaking research by faculty and students',
     },
     {
-      title: 'Alumni Meet 2024',
-      date: 'April 15, 2024',
+      title: 'Alumni Meet 2025',
+      date: 'April 15, 2025',
       description: 'Annual gathering of university alumni with networking opportunities',
     },
   ];

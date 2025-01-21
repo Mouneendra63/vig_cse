@@ -113,7 +113,7 @@ function Slider() {
                     <h4>John Doe</h4>
                     <h5>B.Tech Second Year</h5>
                   </div>
-                  <h1 className="mt-5">CSE</h1>
+                  <h1 className="mt-5 ms-5">CSE</h1>
                 </div>
 
                 <div className="feedback-con">
@@ -122,7 +122,7 @@ function Slider() {
                     <h4>Mouneendra Vanka</h4>
                     <h5>B.Tech Third Year</h5>
                   </div>
-                  <h1 className="mt-5">Labs</h1>
+                  <h1 className="mt-5 ms-4">Labs</h1>
                 </div>
 
                 <div className="feedback-con">

@@ -10,7 +10,7 @@ function VideoHeader  () {
       </video>
       <div className="header-content">
         <div className="container">
-          <h1 className='mt-5 pt-5'>Events Hosted By The CSE</h1>
+          <h1 className='mt-5 pt-5'>Events hosted by the CSE</h1>
           <p className="header-description">
           Discover opportunities through CSE events at Vignan University. Enhance skills, enjoy campus life, and thrive in a diverse community.</p>
         <button className="cta-button">Learn More</button>

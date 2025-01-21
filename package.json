@@ -25,6 +25,7 @@
     "gsap": "^3.12.5",
     "jquery": "^3.7.1",
     "lightgallery": "^2.8.2",
+    "lucide-react": "^0.473.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.7",
     "react-countup": "^6.5.3",

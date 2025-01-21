@@ -1,39 +1,13 @@
-// import React from 'react';
-// import Citations from './Citations'
-// function CitationsWrapper() {
-//     return ( 
-//         <div className="grid">
-//             <div className="row">
-//                 <div className="row row-cols-2">
-//                     <div className="col">
-//                         <Citations />
-//                     </div>
-//                     <div className="col">
-//                         <Citations />
-//                     </div>
-//                     <div className="col">
-//                         <Citations/>
-//                     </div>
-//                     <div className="col">
-//                         <Citations/>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//      );
-// }
-
-// export default CitationsWrapper;
 
 import React from "react";
-import Card from "./Citations"; // Replace with the correct import path for your Card component
+import Card from "./Citations"; 
 
 function CitationsWrapper() {
   const cardData = [
     { title: "H Index", value: 34 },
     { title: "Citations", value: 3580 },
     { title: "I10 - Index", value: 95 },
-    { title: "Ph.D's Awarded", value: 20 },
+    { title: "Ph.D's Awarded", value: 26 },
   ];
 
   return (
